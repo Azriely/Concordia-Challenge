@@ -1,0 +1,29 @@
+.grid {
+    display: grid;
+    grid-template-areas:
+    ". . header header header header . ."
+    ". . body body body body . ."
+    ". . . synopsis synopsis . . ."
+    ". . characters characters characters characters . .";
+}
+.title {
+    background-color: teal;
+}
+.mainHeader {
+    grid-area: header;
+    text-align: center;
+}
+.mainBody {
+    grid-area: body;
+    background-color: rgb(255, 255, 255);
+}
+.Synopsis {
+    margin-left: 20%;
+    margin-right: 20%;
+    grid-area: synopsis;
+}
+.characters {
+    margin-left: 20%;
+    margin-right: 20%;
+    grid-area: characters;
+}
