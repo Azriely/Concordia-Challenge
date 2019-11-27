@@ -4,16 +4,21 @@
     ". . header header header header . ."
     ". . body body body body . ."
     ". . . synopsis synopsis . . ."
-    ". . characters characters characters characters . .";
+    ". . . . charTitle . . ."
+    ". . . char1 char2 . . ."
+    ". . . char3 char4 . . .";
 }
 .title {
     background-color: teal;
 }
 .mainHeader {
+    font-family: 'Courier New', Courier, monospace;
+    color: rgb(213, 219, 194);
     grid-area: header;
     text-align: center;
 }
 .mainBody {
+    font-family: 'Courier New', Courier, monospace;
     grid-area: body;
     background-color: rgb(255, 255, 255);
 }
@@ -22,8 +27,20 @@
     margin-right: 20%;
     grid-area: synopsis;
 }
-.characters {
+.charTitle {
     margin-left: 20%;
     margin-right: 20%;
     grid-area: characters;
+}
+.char1 {
+    grid-area: char1;
+}
+.char2 {
+    grid-area: char2;
+}
+.char3 {
+    grid-area: char3;
+}
+.char4 {
+    grid-area: char4;
 }
